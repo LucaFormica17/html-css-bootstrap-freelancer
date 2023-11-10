@@ -4,3 +4,121 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
+header, footer{
+    background-color: rgba(44,62,80,255);
+    height: 75px;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-aqua{
+    background-color: rgba(26,188,156,255);
+}
+
+.bg-darkblue{
+    background-color: rgba(58,84,109,255);
+}
+
+.bg-img-1{
+    background-color: rgba(186,75,99,255);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bg-img-2{
+    background-color: rgba(30,164,182,255);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bg-img-3{
+    background-color: rgba(20,15,15,255);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bg-img-4{
+    background-color: rgba(28,131,193,255);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bg-img-5{
+    background-color: rgba(14,56,181,255);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bg-img-6{
+    background-color: rgba(204,178,163,255);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+/* TO DO DELETE */
+
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.jumbo{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.title{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+}
+
+.img{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.text{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+}
+
+.btn{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.form{
+    height: 250px;
+    width: 100%;
+    background-color: blue;
+}
+
+.info{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+}
+
+.footer{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}

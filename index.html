@@ -4,22 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/style.css">
         <title>Bootstrap Freelancer</title>
     </head>
     <body>
         <!-- HEADER -->
-        <header>
+        <header class="d-flex align-items-center">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-4 mt-4">
-                        <div class="content header">
-
+                <div class="row">
+                    <div class="col-8 col-md-6">
+                        <div class="content">
+                            <p class="text-uppercase text-white fw-bold mb-0">
+                                start bootstrap
+                            </p>
                         </div>
                     </div>
-                    <div class="col-4 mt-4">
-                        <div class="content header">
-                            
+                    <div class="col-4 col-md-6">
+                        <div class="content text-end">
+                            <i class="fa-solid fa-bars text-secondary border border-secondary rounded p-1 d-md-none"></i>
+                            <ul class="d-none d-md-flex justify-content-end text-white text-uppercase mb-0">
+                                <li class="px-2">portfolio</li>
+                                <li class="px-2">about</li>
+                                <li class="px-2">contact</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -31,10 +39,31 @@
             <div class="bg-aqua">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 my-2">
-                            <div class="content jumbo">
-                                
-                            </div>
+                        <div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+                            <div class="card bg-aqua border border-0 text-white text-uppercase fs-1">
+                                <img src="./img/avatar.svg" class="card-img-top w-50 mx-auto" alt="avatar">
+                                <div class="card-body">
+                                  <h1 class="card-title fw-bold text-center"> start bootstrap</h1>
+                                  <div class="row align-items-center my-2">
+                                    <div class="col-3 offset-2">
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="line"></div>
+                                    </div>
+                                  </div>
+                                  <ul class="d-flex">
+                                    <li class="fs-6 fs-md-4">graphic artist</li>
+                                    <li class="fs-6 fs-md-4">-</li>
+                                    <li class="fs-6 fs-md-4">web designer</li>
+                                    <li class="fs-6 fs-md-4">-</li>
+                                    <li class="fs-6 fs-md-4">illustrator</li>
+                                  </ul>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -42,51 +71,39 @@
             <!-- PORTFOLIO SECTION -->
             <div class="container">
                 <div class="row">
-                    <div class="col-12 mt-4">
+                    <div class="col-12">
                         <div class="content title">
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 p-2">
-                        <div class="content bg-img-1">
-                            <div class="img">
-
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/cabin.png" alt="cabin" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 p-2">
-                        <div class="content bg-img-2">
-                            <div class="img">
-
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/cake.png" alt="cake" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 p-2">
-                        <div class="content bg-img-3">
-                            <div class="img">
-
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/circus.png" alt="circus" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 p-2">
-                        <div class="content bg-img-4">
-                            <div class="img">
-
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/game.png" alt="game" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 p-2">
-                        <div class="content bg-img-5">
-                            <div class="img">
-
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/safe.png" alt="safe" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 p-2">
-                        <div class="content bg-img-6">
-                            <div class="img">
-
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/submarine.png" alt="submarine" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -94,7 +111,7 @@
             <!-- ABOUT SECTION -->
             <div class="bg-aqua">
                 <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-12 mt-4">
                             <div class="content title">
     
@@ -110,8 +127,8 @@
                                 
                             </div>
                         </div>
-                        <div class="col-4-col-md-2 my-2">
-                            <div class="content btn">
+                        <div class="col-4 col-md-2 my-2">
+                            <div class="content button">
 
                             </div>
                         </div>

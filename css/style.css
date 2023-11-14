@@ -11,10 +11,6 @@ header, footer{
     height: 75px;
 }
 
-ul{
-    list-style-type: none;
-}
-
 li{
     font-size: 12px;
 }
@@ -22,12 +18,11 @@ li{
 .line{
     height: 3px;
     width: 100%;
-    background-color: white;
     border-radius: 20px;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 /* BACKGROUND COLOR */
